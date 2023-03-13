@@ -149,10 +149,10 @@ private ObservableList<reponse_reclamation> getReponsesByReclamationId(int recla
         stmt.setString(1, keyword + "%");
         ResultSet rs = stmt.executeQuery();
         while (rs.next()) {
-            int id = rs.getInt("id");
-            String titre = rs.getString("titre");
+            //int id = rs.getInt("id");
+            //String titre = rs.getString("titre");
             String reponse = rs.getString("reponse");
-            int id_reclamation = rs.getInt("id_reclamation");
+            int id_reclamation = rs.getInt("id_reponse");
             reclamation rec = getReclamationById(id_reclamation);
             //rec.setId_reclamation(id_reclamation);
             reponse_reclamation r = new reponse_reclamation(id_reclamation, reponse, rec);

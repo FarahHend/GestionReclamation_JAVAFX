@@ -3,12 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/gui/ClientMessagerieController.java</file>
-            <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/gui/MessagerieController.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/test/MainNotification.java</file>
             <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/test/MainAModuleReclamation.java</file>
-            <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/services/ModuleReclamation/Server.java</file>
-            <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/services/ModuleReclamation/Client.java</file>
-            <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/test/NewFXMain.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/services/ModuleReclamation/NotificationClient.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/gui/FormulaireAjoutRecController.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/PiDev_MatchTalent/src/gui/NotificationController.java</file>
         </group>
     </open-files>
 </project-private>

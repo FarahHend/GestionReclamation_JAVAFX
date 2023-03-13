@@ -26,11 +26,11 @@ public class NewFXMain extends Application {
          //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/AjouterReclamation.fxml")); lee
             //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/FormulaireAjoutRec.fxml"));
             //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/ListReclamation1.fxml"));
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/ClientMessagerie.fxml"));
+            //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/ClientMessagerie.fxml"));
             //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/Email.fxml"));
             //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/AffRec.fxml"));lee
              //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/FXML.fxml"));lee
-             //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/AdminHomePage.fxml"));lee
+             FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/AdminHomePage.fxml"));
             //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/ListReclamation.fxml"));lee
             //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/AjouterReponse.fxml"));lee
             //FXMLLoader loader = new FXMLLoader(getClass().getResource("../gui/ListReponse.fxml"));

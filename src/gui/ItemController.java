@@ -88,7 +88,7 @@ private void handleDeleteButton(ActionEvent event) throws SQLException {
         // close the window
         Node node = (Node) event.getSource();
         Stage stage = (Stage) node.getScene().getWindow();
-        stage.close();
+        //stage.close();
     } else {
         // user clicked cancel or closed the dialog
         // do nothing

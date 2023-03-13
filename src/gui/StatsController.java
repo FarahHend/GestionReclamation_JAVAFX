@@ -48,8 +48,12 @@ public class StatsController implements Initializable {
         // Retrieve data from database and populate chart
         populateChart();
     }    
+    //populateChart() method retrieves data from the database using prepared statements and SQL queries and populates the bar chart with the retrieved data.
     
     private void populateChart() {
+        //two objects are used to store the data retrieved from the database using SQL queries. The reclamationSeries object will hold the number of reclamation objects, 
+        //and the reponse_reclamationSeries object will hold the number of response_reclamation objects.Once the data is retrieved, 
+        //the corresponding XYChart.Data objects are added to the reclamationSeries and reponse_reclamationSeries objects,later added to the BarChart object in the populateChart() method.
         XYChart.Series<String, Integer> reclamationSeries = new XYChart.Series<>();
         XYChart.Series<String, Integer> reponse_reclamationSeries = new XYChart.Series<>();
 

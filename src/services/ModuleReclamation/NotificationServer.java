@@ -24,9 +24,14 @@ import java.net.InetAddress;
         socket.close();
     }
 }*/
+
+// implements a NotificationServer class that listens for UDP packets on port 9876 
+//and stores the data received in a notification object that is then added to a database through a NotificationService object.
 public class NotificationServer {
     private static final int PORT = 9876;
 
+    //The server creates a DatagramSocket object bound to the specified port and listens for incoming DatagramPacket objects. When a packet is received, the data is extracted and stored in a notification object. 
+    //The user ID is assumed to be 1 for all notifications in this example, and the current date and time are not included in the notification object.
     public static void main(String[] args) throws Exception {
         NotificationService service = new NotificationService();
         DatagramSocket socket = new DatagramSocket(PORT);

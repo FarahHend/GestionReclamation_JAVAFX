@@ -47,7 +47,7 @@ public class NotificationController implements Initializable {
         NotificationService notificationService = new NotificationService();
         //notificationService.restart();
         //System.out.println("Notification work!");
-        int userId = 1; // replace with the actual user ID
+        int userId = 2; // replace with the actual user ID
     String message = "Hello, world!";
     notification notif = new notification(userId, message, null);
     notificationService.ajouter(notif);

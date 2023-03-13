@@ -56,6 +56,7 @@ public class EmailController implements Initializable {
         // TODO
         
     }
+    // object for sending email using the Simple Mail Transfer Protocol (SMTP) protocol.
      @FXML
     public void handleSendButton() {
         // Get the email information from the input fields
@@ -67,10 +68,11 @@ public class EmailController implements Initializable {
         
         // Set up the email session properties
         Properties props = new Properties();
-        props.put("mail.smtp.auth", "true");
-        props.put("mail.smtp.starttls.enable", "true");
-        props.put("mail.smtp.host", "smtp.gmail.com");
-        props.put("mail.smtp.port", "587");
+        props.put("mail.smtp.auth", "true"); // indicates that authentication is required to send email via SMTP.
+        props.put("mail.smtp.starttls.enable", "true"); //enables the use of Transport Layer Security (TLS) when sending email via SMTP.
+        props.put("mail.smtp.host", "smtp.gmail.com"); //specifies the hostname of the SMTP server to be used for sending email. In this case, the Gmail SMTP server is being used.
+        props.put("mail.smtp.port", "587"); // specifies the port number on the SMTP server to use. Port 587 is the default port for SMTP with TLS enabled.
+
         
         // Create an Authenticator object to authenticate the email sender
         Authenticator authenticator = new Authenticator() {

@@ -45,6 +45,9 @@ public class NotificationClient {
         socket.send(packet);
         socket.close();
     }*/
+    
+    // The class has a main method which creates a NotificationService object, initializes a DatagramSocket object, sends a notification message to the server using a DatagramPacket,
+    //adds the notification to the NotificationService object using its ajouter method, and finally closes the socket.
     public static void main(String[] args) throws Exception {
     NotificationService notificationService = new NotificationService();
     DatagramSocket socket = new DatagramSocket();

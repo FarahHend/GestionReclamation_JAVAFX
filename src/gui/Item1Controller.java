@@ -100,7 +100,7 @@ private void delete(ActionEvent event) throws SQLException {
 private void delete(ActionEvent event) throws SQLException {
     ReclamationService ps = new ReclamationService();
     reclamation rec = new reclamation(); // Create the reclamation object
-    rec.setId_reclamation(4); // Set the ID value
+    rec.setId_reclamation(3); // Set the ID value
     // Set other properties of the reclamation object as needed
     
     // Create a confirmation dialog
